@@ -4,9 +4,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "upgrade": "ncu -u"
   },
   "dependencies": {
+    "typescript": "^4.2.4",
     "vue": "^3.0.11",
     "vue-router": "^4.0.6",
     "yall-js": "^3.2.0"
@@ -15,9 +16,15 @@
     "@vitejs/plugin-vue": "^1.2.2",
     "@vue/compiler-sfc": "^3.0.11",
     "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.13",
+    "postcss": "^8.2.14",
     "prettier": "2.2.1",
     "tailwindcss": "^2.1.2",
-    "vite": "^2.2.3"
+    "vite": "^2.2.4"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "semi": false,
+    "useTabs": false,
+    "singleQuote": true
   }
 }

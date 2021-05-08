@@ -1,12 +1,13 @@
 <template>
   <Header />
-  <router-view class="pl-80" />
+  <router-view class="" />
 </template>
 
 <script>
 import Header from './components/App/Header.vue'
-export default {
+import { defineComponent } from 'vue'
+export default defineComponent({
   name: 'App',
   components: { Header },
-}
+})
 </script>
