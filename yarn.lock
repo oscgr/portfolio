@@ -894,6 +894,11 @@ postcss@^8.1.10, postcss@^8.1.6, postcss@^8.2.1, postcss@^8.2.13:
     nanoid "^3.1.22"
     source-map "^0.6.1"
 
+prettier@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.2.1.tgz#795a1a78dd52f073da0cd42b21f9c91381923ff5"
+  integrity sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==
+
 pretty-hrtime@^1.0.3:
   version "1.0.3"
   resolved "https://registry.npmjs.org/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz"
@@ -1069,6 +1074,11 @@ vite@^2.2.3:
   optionalDependencies:
     fsevents "~2.3.1"
 
+vue-router@^4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.6.tgz#91750db507d26642f225b0ec6064568e5fe448d6"
+  integrity sha512-Y04llmK2PyaESj+N33VxLjGCUDuv9t4q2OpItEGU7POZiuQZaugV6cJpE6Qm1sVFtxufodLKN2y2dQl9nk0Reg==
+
 vue@^3.0.11:
   version "3.0.11"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.0.11.tgz#c82f9594cbf4dcc869241d4c8dd3e08d9a8f4b5f"
@@ -1087,6 +1097,11 @@ xtend@^4.0.2:
   version "4.0.2"
   resolved "https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz"
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
+
+yall-js@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/yall-js/-/yall-js-3.2.0.tgz#2b284eb2fdc9a61fd43fccedc8559146e692ab68"
+  integrity sha512-e62eb6pZdCs/YhKrgTYG6vlzIwNeqzA8j/jVjdLJLFaAHZVzWylSqe/LIHeMGcSExfDHtKeN8Dk6QMTLy17Bxg==
 
 yallist@^3.0.2:
   version "3.1.1"
