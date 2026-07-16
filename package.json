@@ -1,30 +1,42 @@
 {
-  "name": "photography-website",
+  "name": "portfolio",
   "version": "0.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "upgrade": "ncu -u"
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build",
+    "lint": "run-s \"lint:*\"",
+    "lint:eslint": "eslint . --fix --cache"
   },
   "dependencies": {
-    "typescript": "^4.2.4",
-    "vue": "^3.0.11",
-    "vue-router": "^4.0.6",
-    "yall-js": "^3.2.0"
+    "vue": "^3.5.38"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.2.2",
-    "@vue/compiler-sfc": "^3.0.11",
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.14",
-    "prettier": "2.2.1",
-    "tailwindcss": "^2.1.2",
-    "vite": "^2.2.4"
+    "@antfu/eslint-config": "^9.1.0",
+    "@tsconfig/node26": "^26.0.0",
+    "@types/node": "^24.13.2",
+    "@unocss/eslint-plugin": "^66.7.2",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "@vue/eslint-config-typescript": "^14.8.0",
+    "@vue/tsconfig": "^0.9.1",
+    "eslint": "^10.5.0",
+    "eslint-plugin-oxlint": "~1.69.0",
+    "eslint-plugin-vue": "~10.9.2",
+    "jiti": "^2.7.0",
+    "npm-run-all2": "^9.0.2",
+    "oxlint": "~1.69.0",
+    "typescript": "~6.0.0",
+    "unocss": "^66.7.5",
+    "vite": "^8.0.16",
+    "vite-plugin-vue-devtools": "^8.1.2",
+    "vue-eslint-parser": "^10.4.1",
+    "vue-tsc": "^3.3.5"
   },
-  "prettier": {
-    "trailingComma": "es5",
-    "semi": false,
-    "useTabs": false,
-    "singleQuote": true
+  "engines": {
+    "node": "^22.18.0 || >=24.12.0"
   }
 }

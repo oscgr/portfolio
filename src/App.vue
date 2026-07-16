@@ -1,13 +1,11 @@
+<script setup lang="ts"></script>
+
 <template>
-  <Header />
-  <router-view class="" />
+  <h1>You did it!</h1>
+  <p>
+    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
+    documentation
+  </p>
 </template>
 
-<script>
-import Header from './components/App/Header.vue'
-import { defineComponent } from 'vue'
-export default defineComponent({
-  name: 'App',
-  components: { Header },
-})
-</script>
+<style scoped></style>
